@@ -1,0 +1,196 @@
+export const topOfWeek = [
+  {
+    id: 1,
+    name: "Hongkonh Hainane",
+    price: "$14.99",
+    image: require("../../assets/food1.jpg"),
+  },
+  {
+    id: 2,
+    name: "Hot & Sour Corn",
+    price: "$20.99",
+    image: require("../../assets/food2.jpg"),
+  },
+  {
+    id: 3,
+    name: "Salomon Ar",
+    price: "$24.99",
+    image: require("../../assets/food3.jpg"),
+  },
+  {
+    id: 4,
+    name: "Singapure Solomon",
+    price: "$28.99",
+    image: require("../../assets/food4.jpg"),
+  },
+];
+
+export const filterSearch = [
+  {
+    id: 1,
+    name: "All",
+  },
+  {
+    id: 2,
+    name: "Featured",
+  },
+  {
+    id: 3,
+    name: "Top of Week",
+  },
+  {
+    id: 4,
+    name: "Soup",
+  },
+  {
+    id: 5,
+    name: "Seafood",
+  },
+  {
+    id: 6,
+    name: "Fish",
+  },
+];
+
+export const japaneseFoodData = [
+  {
+    id: 1,
+    name: "Sushi Roll",
+    price: "$12.99",
+    categories: ["Featured", "Fish"],
+    image: require("../../assets/food/sushi.jpg"),
+  },
+  {
+    id: 2,
+    name: "Tempura Shrimp",
+    price: "$8.99",
+    categories: ["Featured", "Seafood"],
+    image: require("../../assets/food/tempura.jpg"),
+  },
+  {
+    id: 3,
+    name: "Miso Soup",
+    price: "$4.99",
+    categories: ["Featured", "Soup"],
+    image: require("../../assets/food/miso.jpg"),
+  },
+  {
+    id: 4,
+    name: "Ramen Bowl",
+    price: "$10.99",
+    categories: ["Featured", "Soup"],
+    image: require("../../assets/food/ramen.jpg"),
+  },
+  {
+    id: 5,
+    name: "Teriyaki Chicken",
+    price: "$9.99",
+    categories: ["Featured"],
+    image: require("../../assets/food/teriyaki.jpg"),
+  },
+  {
+    id: 6,
+    name: "Gyoza",
+    price: "$6.99",
+    categories: ["Featured"],
+    image: require("../../assets/food/gyoza.jpg"),
+  },
+  {
+    id: 7,
+    name: "Sashimi Platter",
+    price: "$15.99",
+    categories: ["Featured", "Seafood"],
+    image: require("../../assets/food/sashimi.jpg"),
+  },
+  {
+    id: 8,
+    name: "Unagi Don",
+    price: "$13.99",
+    categories: ["Featured", "Seafood"],
+    image: require("../../assets/food/unagi.jpg"),
+  },
+  {
+    id: 9,
+    name: "Yakitori Skewers",
+    price: "$7.99",
+    categories: ["Featured", "Chicken"],
+    image: require("../../assets/food/yakitori.jpg"),
+  },
+  {
+    id: 10,
+    name: "Chirashi Bowl",
+    price: "$14.99",
+    categories: ["Featured", "Seafood"],
+    image: require("../../assets/food/chirashi.jpg"),
+  },
+  {
+    id: 11,
+    name: "Takoyaki",
+    price: "$5.99",
+    categories: ["Featured"],
+    image: require("../../assets/food/takoyaki.jpg"),
+  },
+  {
+    id: 12,
+    name: "Okonomiyaki",
+    price: "$8.99",
+    categories: ["Featured"],
+    image: require("../../assets/food/okonomiyaki.jpg"),
+  },
+  {
+    id: 13,
+    name: "Udon Noodles",
+    price: "$9.99",
+    categories: ["Featured", "Soup"],
+    image: require("../../assets/food/udon.jpg"),
+  },
+  {
+    id: 14,
+    name: "Tonkatsu",
+    price: "$11.99",
+    categories: ["Featured"],
+    image: require("../../assets/food/tonkatsu.jpg"),
+  },
+  {
+    id: 15,
+    name: "Matcha Ice Cream",
+    price: "$4.99",
+    categories: ["Featured", "Dessert"],
+    image: require("../../assets/food/matcha.jpg"),
+  },
+  {
+    id: 16,
+    name: "Tuna Nigiri",
+    price: "$36.99",
+    categories: ["Featured", "Fish"],
+    image: require("../../assets/food/tuna.jpg"),
+  },
+  {
+    id: 17,
+    name: "Hongkonh Hainane",
+    price: "$14.99",
+    image: require("../../assets/food1.jpg"),
+    categories: ["Top of Week"],
+  },
+  {
+    id: 18,
+    name: "Hot & Sour Corn",
+    price: "$20.99",
+    image: require("../../assets/food2.jpg"),
+    categories: ["Top of Week"],
+  },
+  {
+    id: 19,
+    name: "Salomon Ar",
+    price: "$24.99",
+    image: require("../../assets/food3.jpg"),
+    categories: ["Top of Week"],
+  },
+  {
+    id: 20,
+    name: "Singapure Solomon",
+    price: "$28.99",
+    image: require("../../assets/food4.jpg"),
+    categories: ["Top of Week"],
+  },
+];
